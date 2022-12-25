@@ -1,0 +1,97 @@
+html,
+body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  background-color: rgb(136, 215, 241);
+  font: italic 1.1em sans-serif;
+}
+
+.night {
+  background-color: rgb(2, 0, 27);
+  color: white;
+}
+
+.conteiner {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  grid-template-rows: 90px 1fr 50px;
+  grid-template-areas: "header header"
+    "aside main"
+    "footer footer";
+  height: 100%;
+}
+
+
+header {
+  grid-area: header;
+  font-family: algerian;
+}
+
+aside {
+  grid-area: aside;
+  padding-top: 30px;
+}
+
+main {
+  grid-area: main;
+  
+
+}
+
+.display {
+  height: 70%;
+  width: 90%;
+  max-height: 500px;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  
+}
+
+.main-photo {
+  width: auto;
+  max-width: 750px;
+  height: 95%;
+}
+
+.list img {
+  height: 70px;
+  width: 100px;
+  border: 1px solid green;
+  margin: 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+ul>li {
+  padding-bottom: 30px;
+}
+
+
+footer {
+  grid-area: footer;
+  margin-bottom: 50px;
+}
+
+.icons img {
+  height: 30px;
+  width: 30px;
+}
+
+.icons button {
+  border-radius: 30%;
+  cursor: pointer;
+}
+
+aside img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
