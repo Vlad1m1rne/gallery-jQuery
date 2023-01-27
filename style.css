@@ -15,7 +15,7 @@ body {
 
 .conteiner {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: 190px 1fr;
   grid-template-rows: 90px 1fr 50px;
   grid-template-areas: "header header"
     "aside main"
@@ -94,4 +94,9 @@ aside img {
   height: 30px;
   width: 30px;
   cursor: pointer;
+}
+
+ul li span{
+  vertical-align: 6px;
+  cursor:pointer;
 }
